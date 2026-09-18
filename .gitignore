@@ -1,0 +1,93 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# ---------- Node / Vite ----------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# ---------- CAD / Ozempic scratch ----------
+# Scratch STEP test files must not be committed.
+*.step
+*.stp
+*.stl
+*.obj
+*.iges
+*.igs
+*.sldprt
+*.sldasm
+# Keep the one fixture the tests require (tests skip if it is missing).
+!tests/test_step.step
+
+# Runtime scratch directory (created on server start)
+temp_uploads/
+
+# ---------- Editor / IDE ----------
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ---------- OS noise ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---------- Logs / runtime state ----------
+*.log
+.hermes/
+.gstack/
