@@ -4,7 +4,6 @@ A web app that analyses and modifies the **wall thickness** of STEP CAD parts â€
 injection-moulding / part-manufacturability check. Upload a solid, pick a thickness,
 get back a hollowed STEP file plus volume/surface metrics and an interactive 3D preview.
 
-Internal R&D project â€” not currently distributed.
 
 > New to the project? Start with [docs/SETUP.md](docs/SETUP.md) for install/run and
 > [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the pieces fit together.
